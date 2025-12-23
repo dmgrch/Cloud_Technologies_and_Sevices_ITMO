@@ -1,0 +1,48 @@
+IT Tower,Service Family,Service Type,Service Sub Type,Service Usage Type,Meter Category,Meter Sub-Category,Meter Name,Consumed Service,
+Cloud Services,"AI
+",Machine Learning,Microsoft.MachineLearningServices,Data Storage,Storage,,,Microsoft.MachineLearningServices,
+Cloud Services,Developers Tools,Azure DevOps,Team Services,Tools,Visual Studio,Team Services,Users,,
+Cloud Services,Developers Tools,Azure DevOps,Build and Deployment,Tools,Visual Studio,Build and Deployment,Private Agents,,
+Cloud Services,Developers Tools,Azure DevOps,Build and Deployment,Tools,Visual Studio,Build and Deployment,Hosted Agents,,
+Cloud Services,Developers Tools,Azure DevOps,Application Insights,Tools,Visual Studio,Application Insights,,microsoft.insights,
+Cloud Services,Application Services,Azure App Service,Web Sites ,Web Hosting,Websites,Web Sites,Free Web Sites,Microsoft.Web,
+Cloud Services,Application Services,Azure App Service,--,Web Hosting,Websites,,%Hours,Microsoft.Web,
+Cloud Services,Application Services,Azure App Service,Web Sites ,Web Hosting,Websites,Web Sites,IP SSL,Microsoft.Web,
+Cloud Services,Analytics,Azure Data Factory,Cloud Data Movement,Data Transfer,Azure Data Factory v2,,Cloud Data Movement,Microsoft.DataFactory,
+Cloud Services,Analytics,Azure Data Factory,Cloud Orchestration ,Activity Run Usage,Azure Data Factory v2,,Cloud Orchestration Activity Run,Microsoft.DataFactory,
+Cloud Services,Analytics,Azure Data Factory,Cloud Pipeline Activity ,External Integration Runtime,Azure Data Factory v2,,Cloud Pipeline Activity External IR,Microsoft.DataFactory,
+Cloud Services,Analytics,Azure Data Factory,Cloud Pipeline Activity ,Integration Runtime,Azure Data Factory v2,,Cloud Pipeline Activity IR,Microsoft.DataFactory,
+Cloud Services,Analytics,Azure Data Factory,Monitoring Operations,Monitoring Usage,Azure Data Factory v2,,Monitoring Operations,Microsoft.DataFactory,
+Cloud Services,Analytics,Azure Data Factory,Read Write Operations,Data Operations,Azure Data Factory v2,,Read Write Operations,Microsoft.DataFactory,
+Compute,"Compute
+",Compute,Virtual Machine,Compute Usage,Storage,,,Microsoft.Compute,
+Compute,"Compute
+",Compute,Microsoft.Batch,Data Storage,Storage,,,Microsoft.Batch,
+Compute,Compute,Enterprise Licenses,Licenses,Compute Licenses,Virtual Machines Licenses,,,,
+Compute,Compute,Compute,Red Hat Enterprise Linux,Compute Resources,Virtual Machines,Red Hat Enterprise Linux%,Compute Hours,%Compute,
+Compute,Compute,Compute,SQL Database,Compute Resources,Virtual Machines,SQL Server%,Compute Hours,,
+Compute,Compute,Compute,BizTalk Server,Compute Resources,Virtual Machines,BizTalk Server,Compute Hours,%Compute,
+Compute,Compute,Compute,BizTalk Server,Compute Resources,Virtual Machines,BizTalk Server Standard%,Compute Hours,%Compute,
+Compute,Compute,Compute,Java Development Environment,Compute Resources,Virtual Machines,Java Development Environment%,Compute Hours,Unassigned,
+Compute,Compute,Compute,Reservation ,Compute Resources,Virtual Machines,Reservation%,Compute Hours,%Compute,
+Database,Database,Database,SQL Database,Database Units,SQL Database,,Database Units%,Database,
+Database,Database,Database,SQL Database,Backup Storage,SQL Database,LTR Backup Storage,Data Stored,,
+Database,Database,Database,SQL Managed Instance,Runtime,SQL Database,Managed Instance%,,Microsoft.Sql,
+Database,Database,Database,SQL Database (Elastic Pool),Compute (vCore),SQL Database,Single/Elastic Pool%,vCore,Microsoft.Sql,
+Database,Database,Database,SQL Database (Elastic Pool),Compute (eDTUs),SQL Database,Elastic Pool%,eDTUs,Microsoft.Sql,
+Database,Database,Database,"SQL Database (SingleDB Hyperscale)
+",Compute (vCore),SQL Database,SingleDB Hyperscale%,vCore,Microsoft.Sql,
+Database,Database,Database,SQL Database (Single),Compute (DTUs),SQL Database,Single%,%DTUs,Microsoft.Sql,
+Database,Database,Database,SQL Database (Compute Reservation),Compute (Reservation),SQL Database,Compute Reservation,Usage,Microsoft.Sql,%SLO_: _MIBC%G5%
+Database,Database,Database,SQL Database (Compute Reservation),Compute (Reservation),SQL Database,Compute Reservation,Usage,Microsoft.Sql,%SLO_: _MIGP%G5%
+Database,Database,Database,SQL Database,SQL Database,SQL Database,,,Microsoft.Sql,
+Storage,"Storage&Content Delivery
+",Object Storage,SQL Data Warehouse,Data Storage,SQL Data Warehouse,%Storage,,Microsoft.Sql,
+Storage,"Storage&Content Delivery
+",Object Storage,SQL Database,SQL Database,Storage,,,Microsoft.Sql,
+Storage,"Storage&Content Delivery
+",Backup Storage,Microsoft._ackup,Backup Storage,Storage,,,microsoft._ackup,
+Storage,"Storage&Content Delivery
+",Backup Storage,Microsoft.RecoveryServices,Recovery Storage,Storage,,,Microsoft.RecoveryServices,
+Storage,"Storage&Content Delivery
+",Object Storage,Storage,Data Storage,Storage,,,%_torage%,
